@@ -59,5 +59,8 @@ class PDFViewerViewController: UIViewController {
                 }
             }
         }
+        func setUpView() {
+            return self.setupPDFView()
+        }
     }
 }
