@@ -55,7 +55,7 @@ class PDFViewerViewController: UIViewController {
                 }
             } else {
                 DispatchQueue.main.async {
-                    print(" Failed to load PDF. Try again! ")
+                    print(" Failed to load PDF. Try again! - soon post 5mins")
                 }
             }
         }
